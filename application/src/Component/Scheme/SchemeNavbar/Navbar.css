@@ -1,0 +1,110 @@
+
+.navbar{
+    height:4rem;
+    transition: all .3s ease 0s;
+    padding: 18px 28px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.navbar.bg-white {
+    box-shadow: 0 15px 30px 0 rgba(60, 72, 88, 0.05);
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+
+
+
+.nav-container{
+    height :3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff; 
+}
+
+.navbar-brand {
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: -3px;
+    color: #223464;
+    font-size: 16px;
+   
+    padding-left: 0;
+    padding-right: 0;
+    /* margin-right: 20px; */
+    text-decoration: none;
+}
+
+.collapsed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.2rem;
+    height:3rem;
+    width: 1100px;
+    align-items: center;
+    
+}
+
+.navbar-left{
+    flex:2;
+    display: flex;
+    text-decoration: none;
+}
+.navbar-right{
+    flex:1;
+    align-items: center;
+    display: flex;
+    margin-left: 5rem;
+    padding-left: 12rem;
+    padding-right: 0;
+}
+
+.nav-item{
+    /* padding-top: .5rem; */
+    
+    list-style-type: none;
+}
+.nav-item-icon{
+    list-style-type: none;
+    padding-bottom: .5rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: #223464;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 20px;
+}
+
+ 
+.navbar-right .nav-link i {
+    height: 2rem; /* for the first icon */
+   
+  }
+  
+  .navbar-right .nav-link i.ri-user-2-fill {
+    font-size: 1.5rem; /* for the second icon */
+    /* margin-left: 2rem; */
+  }
+  .navbar-right .nav-link i.ri-user-add-fill {
+    font-size: 1.5rem; /* for the second icon */
+    /* margin-left: 2rem; */
+  }
+  .navbar-left ,.nav-item.nav-link i.ri-home-4-fill {
+    font-size: 1.5rem; /* for the second icon */
+    margin-bottom: 5px;
+    /* margin-left: 2rem; */
+  }
+  
+

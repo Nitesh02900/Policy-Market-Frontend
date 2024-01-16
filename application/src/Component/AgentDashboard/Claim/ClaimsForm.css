@@ -1,0 +1,43 @@
+
+.claim-form-box{
+    height:55vh;
+    width: 60vh;
+    border: 1px solid #000; /* Border style, width, and color */
+    border-radius: 5%;
+    padding: 10px; /* Add some padding to the content inside the box */
+    margin-top: 5%; 
+    padding-right: 1rem;
+    margin-left: 25%;
+    /* margin-right: 20%; */
+  }
+  .claim-heading{
+    text-align: center;
+    margin-left: 10%;
+  }
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .claim-form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .claim-form-control {
+    border-radius: 5px;
+    padding-bottom: 0.5rem;
+    border: 1px solid #000;
+    width: 100%;
+  }
+  
+  .claim-button {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(34, 52, 100);
+    color: white;
+  }
+  

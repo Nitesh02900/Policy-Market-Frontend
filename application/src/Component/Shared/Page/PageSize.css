@@ -1,0 +1,51 @@
+
+  
+  .blur{
+    position: absolute;
+    width:40rem;
+    background: #edd0ff;
+    height: 18rem;
+    border-radius: 10%;
+    filter: blur(212px);
+    z-index: -9;
+    top: 20%;
+    left: 25%;
+    filter: blur(72px);
+  
+  }
+  .form-select {
+    width: 140px; /* Set the desired width */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Add margin for spacing */
+  }
+  
+  .s-blur2 {
+    position: absolute;
+    width:15rem;
+    background: #edd0ff;
+    height: 8rem;
+    border-radius: 10%;
+    filter: blur(212px);
+    z-index: -9;
+    top: 60%;
+    left: 75%;
+    filter: blur(72px);
+  }
+  
+  .s-blur1 {
+    position: absolute;
+    width:15rem;
+    background: #edd0ff;
+    height: 8rem;
+    border-radius: 10%;
+    filter: blur(212px);
+    z-index: -9;
+    top: 65%;
+    left: 5%;
+    filter: blur(72px);
+    
+  }
+  
+  

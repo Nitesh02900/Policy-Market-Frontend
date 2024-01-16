@@ -1,0 +1,36 @@
+
+.agent-plan-details-box{
+    max-width: 1100px;
+    margin: 20px auto;
+    margin-left: 7%;
+    margin-bottom: 2rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  }
+  .agent-plan-details-tittle{
+    color:white
+  }
+  .agent-plan-container{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    align-items: center;
+    
+  }
+  .agent-plan-left{
+    margin: 1rem;
+    width:10rem
+  }
+  .agent-plan-right{
+    margin-left: 71%;
+    margin-top: 2rem;
+    
+
+  }
+  .plan-right{
+    margin-left: 43%;
+    align-items: center;
+  }

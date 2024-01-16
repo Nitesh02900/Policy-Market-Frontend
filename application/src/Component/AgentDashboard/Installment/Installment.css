@@ -1,0 +1,25 @@
+
+.installment-box{
+    max-width: 1100px;
+    max-height:fit-content;
+    
+    margin: 20px auto;
+    margin-left: 7%;
+    margin-bottom: 2rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  }
+  .installment-tittle{
+    color:white
+  }
+  .installment-container{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    align-items: center;
+    
+  }
+  

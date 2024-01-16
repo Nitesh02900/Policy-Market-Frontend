@@ -1,0 +1,137 @@
+.employee-navbar{
+    display: flex;
+    height:4rem;
+    /* width: 110%; */
+    margin-top: 0;
+    transition: all .3s ease 0s;
+    
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    
+    
+}
+.employee-navbar.bg-white {
+    box-shadow: 0 15px 30px 0 rgba(60, 72, 88, 0.05);
+}
+
+.employee-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.employee-nav-container{
+
+    height :3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0 ;
+    padding-left: 1rem;
+    background-color: #fff; 
+}
+.employee-navbar-brand {
+    flex:1;
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: -3px;
+    color: #223464;
+    font-size: 16px;
+   
+    padding-left: 0;
+    padding-right: 0;
+    /* margin-right: 20px; */
+    text-decoration: none;
+}
+
+.employee-collapsed{
+    flex:6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.2rem;
+    height:3rem;
+    width: 1100px;
+    align-items: center;
+    
+}
+.employee-navbar-left{
+    flex:2;
+    display: flex;
+    text-decoration: none;
+}
+.employee-navbar-right{
+    flex:1;
+    align-items: center;
+    display: flex;
+    margin-left: 5rem;
+    padding-left: 20rem;
+    padding-right: 0;
+}
+.employee-nav-item{
+    
+    list-style-type: none;
+    /* width: 2rem; */
+}
+.employee-nav-link{
+    text-decoration: none;
+    width: 2rem;
+    height: 2rem;
+    color: #223464;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 20px;
+}
+.employee-navbar-right .nav-link i {
+    /* for the first icon */
+    display: block;
+    padding-left: 5rem;
+    
+  }
+  .navbar-right .nav-link i.ri-user-3-fill {
+    font-size: 3rem; /* for the second icon */
+    /* margin-left: 2rem; */
+  }
+
+
+  .employee-profile-popup {
+    margin-right: 15%rem;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    background-color: #fff;
+    border-top: 4px solid #223464!important;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  
+  .employee-profile-popup a {
+    color: #000;
+    text-decoration: none;
+    padding: 8px;
+    font-size: small;
+    font-weight: 100;
+    transition: background-color 0.3s;
+  }
+  .employee-profile-popup button {
+    color: #000;
+    text-decoration: none;
+    padding: 8px;
+    font-size: small;
+    font-weight: 100;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .profile-popup a:hover {
+    background-color: #f1f1f1;
+  }

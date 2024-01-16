@@ -1,0 +1,174 @@
+.scheme{
+    max-height: 2000px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 6rem;
+     
+}
+.scheme-container{
+    height :520px;
+    max-width:1260px ;
+   
+    padding-left: 15px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+.scheme-container >.scheme-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height:500px;
+    max-width: 1260px;
+}
+.scheme-page-left{
+    flex:1;
+    margin-top:6rem ;
+    width: 160px;
+}
+.scheme-page-right{
+    flex: 1;
+    max-height: 550px;
+    max-width: 750px;
+}
+
+.scheme-image{
+    height: 550px;
+    width:700px;
+}
+
+
+
+
+
+.scheme-header .scheme-text-title{
+    margin-bottom: 10px;
+    font-size: 50px;
+    
+    color: #223464;
+}
+
+.scheme-header h2 .scheme-text-title{
+    font-weight: 4;
+}
+
+
+.scheme-header .scheme-text-description{
+    font-size: 18px;
+    
+    font-size: 1rem;
+    line-height: 1.94;
+    color: #223464;
+    margin-bottom: 24px;
+    font-weight: 100 !important;
+}
+
+
+
+.insurance-plan-scheme{
+    background-color:  #f7f6f8;
+    padding-bottom: 60px;
+    padding-top: 25px;
+}
+
+.insurance-Plan-scheme .insurance-Plan-content{
+    height: 100%;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.insurance-scheme-text{
+    margin-top: 40px;
+    text-align: center;
+    padding:0 3rem 0 3rem;
+}
+
+.insurance-Plan-scheme .insurance-scheme-text h2{
+    margin-top: 40px;
+}
+
+.insurance-scheme-text h2.insurance-scheme-subtitle{
+    
+    
+    color: #52d0e1;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -.48px;
+    line-height: 1.41;
+    margin: 12px auto 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,.05);
+    width: 50%;
+    
+    
+}
+.insurance-scheme-text h3{
+    color: #361968;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 1.86;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.insurance-scheme-text p.insurance-scheme-subtext{
+    color: #323232;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.94;
+    margin: 12px auto 60px;
+    width: 45%;
+}
+
+.insurance-scheme-text h6{
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    color: #223464;;
+
+}
+.List-of-details {
+    list-style-type: none;
+    color: #223464;;
+   
+    margin: 0;
+    padding: 0;
+}
+.List-of-details p{
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: 100;
+
+}
+.insurance-scheme-details .plan-details-button{
+    text-align: center;
+    margin-top: 2rem;
+    color: #223464;
+    background-color:#f7f6f8 ;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #223464;;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Add the following styles at the end of your Scheme.css file */
+
+.plan-details-button {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    /* background-color: #28a745; */
+     /* Success color */
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #28a745; /* Border color */
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  
+  
+  .plan-details-button:active {
+    background-color: #1e7e34; /* Even darker shade for active state */
+    border-color: #1e7e34;
+  }
+  

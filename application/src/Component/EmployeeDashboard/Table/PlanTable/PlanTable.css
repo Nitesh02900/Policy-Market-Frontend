@@ -1,0 +1,9 @@
+.table-header {
+    background-color: #007bff; /* Use the desired shade of blue */
+    color: white; /* Set text color to white or any contrasting color */
+    font-size: 14px;
+}
+  
+  .custom-table th {
+    border: none; /* Remove border for th elements */
+  }

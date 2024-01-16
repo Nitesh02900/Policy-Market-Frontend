@@ -1,0 +1,47 @@
+.policy-box{
+    max-width: 900px;
+    margin: 20px auto;
+    margin-left: 12%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.policy-tittle{
+    margin-left: 30%;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+.policy-form-container{
+
+    max-width: 600px;
+    margin: 20px auto;
+    margin-left: 15%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  .policy-button{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  /* .policy-button-1{
+    width:8rem
+  }
+  .policy-button-2{
+    width:8rem
+  } */

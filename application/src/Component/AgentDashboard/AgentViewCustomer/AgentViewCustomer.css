@@ -1,0 +1,9 @@
+.go-back-button{
+    background-color:  rgb(34, 52, 100);
+    border: none;
+      
+}
+.go-back-button:hover{
+    background-color:rgb(23, 58, 154);
+    color: white;
+}

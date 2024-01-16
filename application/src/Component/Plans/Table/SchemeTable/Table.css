@@ -1,0 +1,21 @@
+.table-header {
+    background-color: #007bff; /* Use the desired shade of blue */
+    color: white; /* Set text color to white or any contrasting color */
+    font-size: 14px;
+}
+  
+  .custom-table th {
+    border: none; /* Remove border for th elements */
+  }
+
+  .calculate-button{
+    height: 2rem;
+    background:rgb(34, 52, 100) ;
+    color: white;
+    border-radius: 4px;
+    border: none;
+  }
+  .calculate-button:hover{
+    background-color:rgb(23, 58, 154);
+    color: white;
+  }

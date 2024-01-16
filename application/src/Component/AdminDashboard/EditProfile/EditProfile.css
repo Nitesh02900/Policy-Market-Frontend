@@ -1,0 +1,48 @@
+.admin-edit-profile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    height: 70vh;
+}
+.admin-edit-profile-Left-element{
+  
+    height:50vh;
+    /* margin-left: 1rem; */
+    padding-left:1.5rem;
+    flex: 1;
+    margin-top: 2rem;
+    
+  }
+
+  .admin-edit-profile-right-element{
+    height: 70vh;
+    padding-left: 0rem;
+    flex: 2;
+    padding-right: 10rem;
+  }
+
+  .admin-edit-profile-box{
+    height:70vh;
+    width: 55vh;
+    border: 1px solid #000; /* Border style, width, and color */
+    border-radius: 5%;
+    padding: 20px; /* Add some padding to the content inside the box */
+    /* margin-top: 5%; */
+    padding-right: 2rem;
+    margin-left: 35%;
+    margin-right: 45%;
+  }
+
+  .admin-edit-profile-heading{
+    text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+  .admin-edit-profile-postdata{
+    max-width: 300px;
+      margin: 0 auto;
+  }
+  .admin-edit-profile-form-group{
+    margin-bottom: 15px;
+  }
